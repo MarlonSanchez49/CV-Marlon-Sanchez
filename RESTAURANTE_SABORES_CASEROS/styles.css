@@ -1,0 +1,130 @@
+:root {
+    --marron-canela: #8B4513;
+    --beige-crema: #F5F5DC;
+    --rojo-terracota: #D2691E;
+    --blanco-hueso: #FAF3E0;
+    --negro-negro: #000;
+    --marron-claro: #f18334df;
+}
+
+
+.navbar {
+    background-color: var(--beige-crema);
+    border-bottom: 2px solid var(--marron-canela);
+}
+
+.navbar .nav-link {
+    color: var(--negro-negro);
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar .nav-link:hover {
+    color: var(--rojo-terracota);
+}
+
+
+body {
+    background-color: var(--beige-crema);
+    color: var(--marron-canela);
+}
+
+
+.btn-primary {
+    background-color: var(--rojo-terracota);
+    border: none;
+    color: var(--blanco-hueso);
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+}
+
+
+
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 10px;
+    color: var(--blanco-hueso);
+}
+
+.carousel img {
+    object-fit: cover;
+    height: 70vh;
+}
+
+
+h1#menu {
+    text-align: center;
+    color: var(--marron-canela);
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.nav-pills .nav-link {
+    background-color: var(--rojo-terracota);
+    color: var(--blanco-hueso);
+    font-weight: bold;
+}
+
+.nav-pills .nav-link.active {
+    background-color: var(--marron-claro);
+}
+
+
+.card {
+    border: 2px solid var(--marron-canela);
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    color: var(--marron-canela);
+    font-weight: bold;
+}
+
+.card-text {
+    color: var(--negro-negro);
+}
+
+
+.img-fluid {
+    border-radius: 10px;
+    border: 2px solid var(--marron-canela);
+}
+
+
+footer {
+    background-color: var(--marron-canela);
+    color: var(--blanco-hueso);
+    padding: 20px;
+    text-align: center;
+}
+
+
+footer a {
+    color: var(--blanco-hueso);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+footer a:hover {
+    color: var(--rojo-terracota);
+}
+
+
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+ul li {
+    color: var(--rojo-terracota);
+    font-weight: bold;
+}
+
+
